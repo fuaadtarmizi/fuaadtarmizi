@@ -1,7 +1,6 @@
 import MouseEffect from "../component/MouseEffect"
 import { useEffect } from 'react';
 
-
 const Home = () => {
   useEffect(() => {
     document.title = 'Fuaad Tarmizi ';  
