@@ -2,15 +2,23 @@
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
-import "./index.css"
+import Navbar from './component/Navbar'
+
+// import "./App.css"
+import "./styles/Global.css";
+
 
 function App() {
   return (
-    <div>
-    <Routes>
-      <Route path="/" Component={Home}/>
-      <Route path="/about" Component={About}/>
-    </Routes>
+    <div className="App">
+      <Navbar/>
+      <div className="content">
+        <Routes>
+          <Route path="/" element={<Home />}/>
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </div>
+    
     </div>
   );
 }

@@ -1,14 +1,32 @@
 import MouseEffect from "../component/MouseEffect"
 import { useEffect } from 'react';
+import Intro from '../component/Intro'
+import About from './About'
+import Experience from "./Experience";
+import Project from "./Project"
+import Credits from "./Credits"
 
-const Home = () => {
-  useEffect(() => {
-    document.title = 'Fuaad Tarmizi ';  
-  }, 
-  []); 
+import "../App.css"
+// import "../styles/Global.css";
+
+
+
+function Home() {
   return (
-    <main className="scroll-smooth">  
-    <body className="bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900">
+    <main className="App">
+      <div className="">
+        <section>
+        <Intro />
+        <About />
+        <Experience />
+        <Project />
+        <Credits/>
+      </section>
+      </div>
+      
+
+
+    {/* <body className="bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900">
       <div id="__next">
       <MouseEffect/>
       <div className="mx-auto max-w-screen-xl min-h-screen px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
@@ -44,7 +62,6 @@ const Home = () => {
             </ul>
           </nav>
           </div>
-      
       <section className="ml-1 mt-8 flex items-center" aria-label="Social media">
       
         <div className="mr-5 text-xs">
@@ -308,7 +325,7 @@ const Home = () => {
     </div>
     
     </div>  
-  </body>
+  </body> */}
   </main>
   );
 }
