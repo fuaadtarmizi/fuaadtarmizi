@@ -8,6 +8,8 @@
 .navbar {
   background-color: var(--navy) !important;
   color: var(--lightest-slate) !important;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .navbar .navbar-brand,
