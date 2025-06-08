@@ -6,7 +6,7 @@ import BorderColorIcon from "@mui/icons-material/BorderColor";
 import EmailRoundedIcon from "@mui/icons-material/EmailRounded";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import "../styles/NavBar.css";
+import "../styles/Navbar.css";
 class NavBar extends React.Component {
   render() {
     return (

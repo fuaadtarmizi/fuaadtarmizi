@@ -100,6 +100,13 @@
   opacity: 0.5;
 }
 
+.carousel-caption.centered {
+  left: 50% !important;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 .carousel-caption {
   font-family: "NTR", sans-serif;
   max-width: 500px;
