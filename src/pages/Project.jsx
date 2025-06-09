@@ -30,7 +30,7 @@ class Projects extends React.Component {
         techStack: "REACT.JS",
         link: "https://github.com/fuaadtarmizi/my-calculator",
         open: "https://my-calculator-two-kappa.vercel.app/",
-        image: "./src/assets/calculator.png",
+        image: './src/assets/calculator.png',
         alignCenter: true
       },
       "Auto-Grade Quiz": {
@@ -40,7 +40,7 @@ class Projects extends React.Component {
         techStack: "NEXT.JS",
         link: "https://github.com/fuaadtarmizi/mathproject",
         open: "https://fuaadmathproject.vercel.app/",
-        image: "./src/assets/quiz.png",
+        image: "/src/assets/quiz.png",
         alignCenter: true
       },
       "World Chat": {
@@ -50,7 +50,7 @@ class Projects extends React.Component {
         techStack: "VUE.JS, NODE.JS (SOCKET.IO), REACT.JS, FIREBASE",
         link: "https://github.com/fuaadtarmizi/WorldChat",
         open: "https://myworld-1c5cc.web.app/",
-        image: "./src/assets/WorldChat.png",
+        image: './src/assets/WorldChat.png',
         alignCenter: true
       },
       Portfolio: {
