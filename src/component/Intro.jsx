@@ -28,7 +28,7 @@ class Intro extends React.Component {
     <h1 className="intro-title ">
       <Typewriter words={["hi,"]} typeSpeed={180}/>
       <span className="intro-name">
-      <Typewriter words={["fuad"]} typeSpeed={200}/>
+      <Typewriter words={["fuaad"]} typeSpeed={200}/>
     </span>
       <Typewriter words={[" here."]} cursor cursorStyle="|" typeSpeed={220}/>
     </h1>

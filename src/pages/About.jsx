@@ -32,12 +32,12 @@ class About extends React.Component {
     );
 
     const tech_stack = [
-      "Laravel",
       "React.js",
+      "React Native",
+      "Laravel",
       "Express.js",
       "Python",
       "Javascript ES6+",
-      "C#"
     ];
 
     return (
