@@ -19,6 +19,19 @@
   color: var(--slate);
 }
 
+.about-resume button {
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: var(--blue);
+}
+
+.about-resume:hover {
+  transform: translateY(-7px);
+}
+
 .about-description li::before {
   content: "▹    ";
   color: var(--green-bright);

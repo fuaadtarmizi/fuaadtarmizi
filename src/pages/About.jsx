@@ -30,6 +30,13 @@ class About extends React.Component {
         science. I also play a lot of video games. And make TikToks.
       </p>
     );
+    const three = (
+      <div className="about-resume">
+        <button href="https://drive.google.com/file/d/1NTUD1mnIgbeEKGQ35C02o-d3iJsc-SJF/view?usp=sharing" 
+        >My Resume</button>
+        
+      </div>
+    );
 
     const tech_stack = [
       "React.js",
@@ -58,6 +65,7 @@ class About extends React.Component {
                 ))}
               </ul>
               {two}
+              {three}
             </div>
             <div className="about-image">
               <img alt="fuad" src="/me.jpg" />
