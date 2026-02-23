@@ -47,7 +47,7 @@ const JobList = () => {
 
   const experienceItems = {
     "YEG Academy": {
-      jobTitle: "Executive Web Developer @",
+      jobTitle: "Senior Executive Web Developer @",
       duration: "NOV 2023 - PRESENT",
       desc: [
         "Manage the development end-to-end (from scratch) for several responsive React web pages, enabling fast web deployment in 24/7.",

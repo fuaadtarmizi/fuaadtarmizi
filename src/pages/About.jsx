@@ -19,7 +19,7 @@ class About extends React.Component {
   render() {
     const one = (
       <p>
-        I am currently a <b>Senior Web Developer</b> at
+        I am currently a <b>Senior Executive Web Developer</b> at
         <a href="https://www.yegmy.com/"> YEG Academy</a> with a foundation in Software Developmentstill drawing on the same core principles and problem-solving skills.
          In my spare time, I enjoy building small-scale projects as a way to explore new technologie
       </p>
