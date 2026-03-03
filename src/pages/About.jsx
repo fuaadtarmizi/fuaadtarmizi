@@ -32,7 +32,8 @@ class About extends React.Component {
     );
     const three = (
       <div className="about-resume">
-        <button onClick={() => window.open("https://drive.google.com/file/d/1NTUD1mnIgbeEKGQ35C02o-d3iJsc-SJF/view?usp=sharing", "_blank")}
+        {/* onClick={() => window.open("https://drive.google.com/file/d/1NTUD1mnIgbeEKGQ35C02o-d3iJsc-SJF/view?usp=sharing", "_blank")} */}
+        <button 
         >My Resume</button>
         
       </div>
