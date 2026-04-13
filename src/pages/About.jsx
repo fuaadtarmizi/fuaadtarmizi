@@ -27,14 +27,15 @@ class About extends React.Component {
     const two = (
       <p>
         Outside of work, I'm interested in following the developments of
-        science. I also play a lot of video games and explore somthing new that related to tech.
+        science. I also explore somthing new that related to tech.
       </p>
     );
     const three = (
       <div className="about-resume">
         {/* onClick={() => window.open("https://drive.google.com/file/d/1NTUD1mnIgbeEKGQ35C02o-d3iJsc-SJF/view?usp=sharing", "_blank")} */}
-        <button 
-        >My Resume</button>
+        {/* <button>
+          My Resume
+        </button> */}
         
       </div>
     );
