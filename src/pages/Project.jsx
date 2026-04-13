@@ -43,6 +43,16 @@ class Projects extends React.Component {
         image: "./quiz.png",
         alignCenter: true
       },
+      "Staff Monitoring Systems": {
+        title: "Staff Monitoring Systems",
+        desc:
+          "A system for monitoring staff activities and performance.",
+        techStack: "NEXT.JS (REACT), TAILWIND, WHATSAPP DEEP-LINK INTEGRATION, JAVASCRIPT RULE-BASED AI LOGIC, SUPABASE",
+        link: "https://github.com/fuaadtarmizi/technicianSystems",
+        open: "https://technician-systems.vercel.app/",
+        image: './technicianSystem.png',
+        alignCenter: true
+      },
       "World Chat": {
         title: "World Chat",
         desc:
@@ -53,16 +63,7 @@ class Projects extends React.Component {
         image: './WorldChat.png',
         alignCenter: true
       },
-      Portfolio: {
-        title: "portfolio.js",
-        desc:
-          "A Portfolio that design for personal use.",
-        techStack: "VUE.JS",
-        link: "https://github.com/fuaadtarmizi/fuaadtarmizi",
-        open: "https://fuaadtarmizi.vercel.app/",
-        image: "./portfolio.png",
-        alignCenter: true
-      }
+      
     };
     const projects = {
       "Car Loan Calculator": {
@@ -86,12 +87,19 @@ class Projects extends React.Component {
         link:
           "https://github.com/gazijarin/Distributed-Logging-and-Monitoring-System"
       },
-      "portfolio.js": {
+      "Staff Monitoring Systems": {
         desc:
-          "A Portfolio that design for personal use",
-        techStack: "VUE.JS (REACT.JSX)",
+          "A system for monitoring staff activities and performance.",
+        techStack: "Next.js (REACT), Tailwind, WhatsApp deep-link integration, JavaScript rule-based AI logic, supabase",
+        link: "https://github.com/fuaadtarmizi/technicianSystems",
+        open: "https://technician-systems.vercel.app/"
+      },
+      "Portfolio": {
+        desc:
+          "A Portfolio that design for personal use.",
+        techStack: "VUE.JS",
         link: "https://github.com/fuaadtarmizi/fuaadtarmizi",
-        open: "https://fuaadtarmizi.vercel.app"
+        open: "https://fuaadtarmizi.vercel.app/",
       },
     };
 
@@ -112,7 +120,7 @@ class Projects extends React.Component {
                 <Carousel.Caption className={`carousel-caption ${spotlightProjects[key].alignCenter ? "centered" : ""}`}>
                   <h3>{spotlightProjects[key]["title"]}</h3>
                   <p>{spotlightProjects[key]["desc"]}</p>
-                   <p className="techStack">{spotlightProjects[key]["techStack"]}</p>
+                   <p className="techStack !uppercase">{spotlightProjects[key]["techStack"]}</p>
                   <ExternalLinks
                     githubLink={spotlightProjects[key]["link"]}
                     openLink={spotlightProjects[key]["open"]}
@@ -141,7 +149,7 @@ class Projects extends React.Component {
 
                   <div className="card-title">{key}</div>
                   <div className="card-desc">{projects[key]["desc"]}</div>
-                  <div className="card-tech">{projects[key]["techStack"]}</div>
+                  <div className="card-tech !uppercase">{projects[key]["techStack"]}</div>
                 </li>
               </FadeInSection>
             ))}
